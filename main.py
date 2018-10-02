@@ -7,8 +7,8 @@
 Lab challenge #1:
 A large prime number would be better because if there are any patterns in the
 stored data a number with more factors is more likely to create collisions.
-let m be a factor of n and let x be any positive integer. If x*m % n will always
-produce the same output of the hash function. So minimizing the number of
+let m be a factor of n and let x be any positive integer. x*m % n will be 
+limitid to multiples of m. So minimizing the number of
 possibilities for m by choosing a number with less factors limits collisions.
 
 
